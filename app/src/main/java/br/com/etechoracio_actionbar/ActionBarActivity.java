@@ -45,7 +45,7 @@ public class ActionBarActivity extends AppCompatActivity {
                 return true;
 
             case R.id.action_sair:
-                Toast.makeText(this, "Sair acionado!", Toast.LENGTH_SHORT).show();
+                finish();
                 return true;
 
             default:
